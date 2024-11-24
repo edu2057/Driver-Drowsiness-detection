@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['eyes_closed', 'eyes_closed_head_left', 'eyes_closed_head_right', 'focused', 'head_down', 'head_up', 'seeing_left', 'seeing_right', 'yarning']
+
+roboflow:
+  workspace: karthik-madhvan
+  project: drowsiness-detection-xsriz
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/karthik-madhvan/drowsiness-detection-xsriz/dataset/1
